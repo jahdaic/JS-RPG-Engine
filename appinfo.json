@@ -1,0 +1,112 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Jahdai Cintron",
+    "longName": "RPG",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/test-bg.png",
+                "name": "IMAGES_TEST_BG_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-left-4.png",
+                "name": "IMAGES_HERO_LEFT_4_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-left-3.png",
+                "name": "IMAGES_HERO_LEFT_3_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-left-2.png",
+                "name": "IMAGES_HERO_LEFT_2_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-right-4.png",
+                "name": "IMAGES_HERO_RIGHT_4_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-right-3.png",
+                "name": "IMAGES_HERO_RIGHT_3_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-right-2.png",
+                "name": "IMAGES_HERO_RIGHT_2_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/textbox.png",
+                "name": "IMAGES_TEXTBOX_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-right-1.png",
+                "name": "IMAGES_HERO_RIGHT_1_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hero-left-1.png",
+                "name": "IMAGES_HERO_LEFT_1_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/hand.png",
+                "name": "IMAGES_HAND_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/menu-bg.png",
+                "name": "IMAGES_MENU_BG_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/title.png",
+                "name": "IMAGES_TITLE_PNG",
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "RPG",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "50bd63e0-8436-4a2e-9488-4d1daa0eff2c",
+    "versionCode": 1,
+    "versionLabel": "0.1",
+    "watchapp": {
+        "hiddenApp": false,
+        "watchface": false
+    }
+}
