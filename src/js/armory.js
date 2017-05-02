@@ -1,34 +1,31 @@
-// Bestiary Class
+// Armory Class
 
-// Constructor
-var Armory = function() {
-};
+var Armory = function ()
+{
+	////////////////////////////////////
+	// ITEMS (PROPERTIES)             //
+	////////////////////////////////////
 
-module.exports = Armory;
+	this.crackedBat = {
+		name: 'Cracked Bat',
+		type: 'weapon',
+		attack: 4,
+		sound: 'slash'
+	}
 
-////////////////////////////////////
-// MONSTERS                       //
-////////////////////////////////////
+	this.baseballCap = {
+		name: 'Baseball Cap',
+		type: 'helmet',
+		defense: 5
+	};
 
-Armory.prototype.slime = {
-	maxHealth: 3,
-	maxMagic: 0,
-	attack: 1,
-	defense: 0
-};
+	////////////////////////////////////
+	// METHODS                        //
+	////////////////////////////////////
 
-////////////////////////////////////
-// MONSTER GROUPS                 //
-////////////////////////////////////
-
-
-
-////////////////////////////////////
-// METHODS                        //
-////////////////////////////////////
-
-// Get Monster Data 
-Armory.prototype.getItemData = function( item ) {
-	
-	return this[ item ];
+	// Get Item Data
+	this.getItemData = function ( item )
+	{
+		return this[ item ];
+	};
 };

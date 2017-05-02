@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>JS RPG Engine</title>
+		<meta name="description" content="JavaScript RPG Engine">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" integrity="sha384-RpX8okQqCyUNG7PlOYNybyJXYTtGQH+7rIKiVvg1DLg6jahLEk47VvpUyS+E2/uJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	</head>
+	<body>
+		<audio src="" id="bgm" preload="auto" loop></audio>
+		<audio src="" id="sfx" preload="auto"></audio>
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<b class="text-warning">JavaScript RPG Engine</b>
+						<small>Demo</small>
+					</a>
+				</div>
+
+				<!-- <ul class="nav navbar-nav">
+					<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Link</a></li>
+				</ul> -->
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" onclick="fight.start();">Fight</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							Heal
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#" onclick="rpg.party[0].setHealth(100); rpg.party[1].setHealth(100); fight.refreshStats();">Heroes</a></li>
+							<li><a href="#" onclick="enemy1.setHealth(100); enemy2.setHealth(100); fight.refreshStats();">Baddies</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="form-group">
+				<div class="well well-sm" id="output" style="height:150px; overflow-y:auto; border:5px solid white; font-size:24px;" readonly>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="clearfix" id="stats-enemy">
+				</div>
+			</div>
+
+			<div class="clearfix"><br><br><br><br></div>
+
+			<div class="form-group hidden">
+				<button type="button" class="btn btn-primary btn-lg" onclick=""><i class="fa fa-bomb"></i> Attack</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick=""><i class="fa fa-shield"></i> Defend</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick=""><i class="fa fa-magic"></i> Magic</button>
+				<button type="button" class="btn btn-primary btn-lg" onclick=""><i class="fa fa-flask"></i> Item</button>
+			</div>
+
+			<div class="row">
+				<div class="clearfix" id="stats">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<!-- <input type="text" class="form-control"> -->
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="src/js/utility.js"></script>
+		<script src="src/js/app.js"></script>
+	</body>
+</html>
